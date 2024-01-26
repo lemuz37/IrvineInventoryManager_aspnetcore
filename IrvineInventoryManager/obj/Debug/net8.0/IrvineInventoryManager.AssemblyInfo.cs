@@ -11,8 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-IrvineInventoryManager-97ba2e3d-2b33-4c19-b9f7-3b088778d56a")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-IrvineInventoryManager-ed25765f-4b4a-4fb7-8e34-d7e43600bec8")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("IrvineInventoryManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

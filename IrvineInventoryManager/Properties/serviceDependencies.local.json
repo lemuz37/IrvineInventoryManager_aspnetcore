@@ -1,8 +1,10 @@
 {
   "dependencies": {
-    "mssql1": {
-      "type": "mssql.local",
-      "connectionId": "ConnectionStrings:DefaultConnection"
+    "identityapp1": {
+      "connectionInfo": "App registration: Irvine Inventory Manager, Tenant: Midmark Corporation (midmark.onmicrosoft.com - Microsoft Entra ID)",
+      "secretStore": "LocalSecretsFile",
+      "type": "identityapp.secretStore",
+      "connectionId": "AzureAD:ClientSecret"
     }
   }
 }

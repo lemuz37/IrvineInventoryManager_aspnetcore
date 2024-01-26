@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\git\\IrvineInventoryManager_aspnetcore\\IrvineInventoryManager\\IrvineInventoryManager.csproj": {}
+    "C:\\Users\\lemuz\\OneDrive\\Desktop\\IrvineInventoryManager\\IrvineInventoryManager.csproj": {}
   },
   "projects": {
-    "E:\\git\\IrvineInventoryManager_aspnetcore\\IrvineInventoryManager\\IrvineInventoryManager.csproj": {
+    "C:\\Users\\lemuz\\OneDrive\\Desktop\\IrvineInventoryManager\\IrvineInventoryManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\git\\IrvineInventoryManager_aspnetcore\\IrvineInventoryManager\\IrvineInventoryManager.csproj",
+        "projectUniqueName": "C:\\Users\\lemuz\\OneDrive\\Desktop\\IrvineInventoryManager\\IrvineInventoryManager.csproj",
         "projectName": "IrvineInventoryManager",
-        "projectPath": "E:\\git\\IrvineInventoryManager_aspnetcore\\IrvineInventoryManager\\IrvineInventoryManager.csproj",
+        "projectPath": "C:\\Users\\lemuz\\OneDrive\\Desktop\\IrvineInventoryManager\\IrvineInventoryManager.csproj",
         "packagesPath": "C:\\Users\\lemuz\\.nuget\\packages\\",
-        "outputPath": "E:\\git\\IrvineInventoryManager_aspnetcore\\IrvineInventoryManager\\obj\\",
+        "outputPath": "C:\\Users\\lemuz\\OneDrive\\Desktop\\IrvineInventoryManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,25 +44,35 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
             },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
             },
-            "Microsoft.AspNetCore.Identity.UI": {
+            "Microsoft.Identity.Web": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[2.15.2, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.Identity.Web.DownstreamApi": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[2.15.2, )"
             },
-            "Microsoft.EntityFrameworkCore.Tools": {
+            "Microsoft.Identity.Web.MicrosoftGraph": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[2.13.4, )"
+            },
+            "Microsoft.Identity.Web.UI": {
+              "target": "Package",
+              "version": "[2.15.2, )"
             }
           },
           "imports": [
@@ -84,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

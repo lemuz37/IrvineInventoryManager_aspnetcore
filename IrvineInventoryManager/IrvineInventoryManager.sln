@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.8.34316.72
+VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IrvineInventoryManager", "IrvineInventoryManager.csproj", "{F7BF7613-F7AD-43E7-B9D6-A95D959454C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IrvineInventoryManager", "IrvineInventoryManager.csproj", "{41204D22-ACC2-4D90-8C37-C779E2A66933}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F7BF7613-F7AD-43E7-B9D6-A95D959454C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F7BF7613-F7AD-43E7-B9D6-A95D959454C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F7BF7613-F7AD-43E7-B9D6-A95D959454C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F7BF7613-F7AD-43E7-B9D6-A95D959454C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41204D22-ACC2-4D90-8C37-C779E2A66933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41204D22-ACC2-4D90-8C37-C779E2A66933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41204D22-ACC2-4D90-8C37-C779E2A66933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41204D22-ACC2-4D90-8C37-C779E2A66933}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {072765AF-5384-4BCD-AF46-8133BC523496}
+		SolutionGuid = {927E9C3A-9A86-4399-9AC8-CB8F5D179036}
 	EndGlobalSection
 EndGlobal
